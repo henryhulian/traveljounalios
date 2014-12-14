@@ -15,6 +15,16 @@
 		B7E313DC1A3E130C0097FD2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7E313DB1A3E130C0097FD2F /* Images.xcassets */; };
 		B7E313DF1A3E130D0097FD2F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7E313DD1A3E130C0097FD2F /* LaunchScreen.xib */; };
 		B7E313EB1A3E130D0097FD2F /* TravelJournalIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E313EA1A3E130D0097FD2F /* TravelJournalIOSTests.m */; };
+		B7E313F81A3E13990097FD2F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E313F71A3E13990097FD2F /* Security.framework */; };
+		B7E313FA1A3E13AB0097FD2F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E313F91A3E13AB0097FD2F /* SystemConfiguration.framework */; };
+		B7E313FC1A3E13B10097FD2F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E313FB1A3E13B10097FD2F /* CFNetwork.framework */; };
+		B7E313FE1A3E13BA0097FD2F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E313FD1A3E13BA0097FD2F /* OpenGLES.framework */; };
+		B7E314001A3E13BF0097FD2F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E313FF1A3E13BF0097FD2F /* libz.dylib */; };
+		B7E314021A3E13C70097FD2F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E314011A3E13C70097FD2F /* libsqlite3.dylib */; };
+		B7E314071A3E13FC0097FD2F /* CouchbaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E314061A3E13FC0097FD2F /* CouchbaseService.m */; };
+		B7E314081A3E13FC0097FD2F /* CouchbaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E314061A3E13FC0097FD2F /* CouchbaseService.m */; };
+		B7E3140A1A3E149F0097FD2F /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E314091A3E149F0097FD2F /* CouchbaseLite.framework */; };
+		B7E3140B1A3E149F0097FD2F /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E314091A3E149F0097FD2F /* CouchbaseLite.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +53,15 @@
 		B7E313E41A3E130D0097FD2F /* TravelJournalIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelJournalIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E313E91A3E130D0097FD2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7E313EA1A3E130D0097FD2F /* TravelJournalIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravelJournalIOSTests.m; sourceTree = "<group>"; };
+		B7E313F71A3E13990097FD2F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B7E313F91A3E13AB0097FD2F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B7E313FB1A3E13B10097FD2F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B7E313FD1A3E13BA0097FD2F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B7E313FF1A3E13BF0097FD2F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B7E314011A3E13C70097FD2F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		B7E314051A3E13F40097FD2F /* CouchbaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouchbaseService.h; sourceTree = "<group>"; };
+		B7E314061A3E13FC0097FD2F /* CouchbaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouchbaseService.m; sourceTree = "<group>"; };
+		B7E314091A3E149F0097FD2F /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLite.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +69,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7E314021A3E13C70097FD2F /* libsqlite3.dylib in Frameworks */,
+				B7E314001A3E13BF0097FD2F /* libz.dylib in Frameworks */,
+				B7E313FE1A3E13BA0097FD2F /* OpenGLES.framework in Frameworks */,
+				B7E313FC1A3E13B10097FD2F /* CFNetwork.framework in Frameworks */,
+				B7E313FA1A3E13AB0097FD2F /* SystemConfiguration.framework in Frameworks */,
+				B7E313F81A3E13990097FD2F /* Security.framework in Frameworks */,
+				B7E3140A1A3E149F0097FD2F /* CouchbaseLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7E3140B1A3E149F0097FD2F /* CouchbaseLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +95,7 @@
 			children = (
 				B7E313CA1A3E130C0097FD2F /* TravelJournalIOS */,
 				B7E313E71A3E130D0097FD2F /* TravelJournalIOSTests */,
+				B7E313F41A3E13520097FD2F /* Frameworks */,
 				B7E313C91A3E130C0097FD2F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,6 +112,8 @@
 		B7E313CA1A3E130C0097FD2F /* TravelJournalIOS */ = {
 			isa = PBXGroup;
 			children = (
+				B7E314041A3E13DA0097FD2F /* model */,
+				B7E314031A3E13D40097FD2F /* service */,
 				B7E313CF1A3E130C0097FD2F /* AppDelegate.h */,
 				B7E313D01A3E130C0097FD2F /* AppDelegate.m */,
 				B7E313D21A3E130C0097FD2F /* FirstViewController.h */,
@@ -122,6 +152,36 @@
 				B7E313E91A3E130D0097FD2F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7E313F41A3E13520097FD2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7E314091A3E149F0097FD2F /* CouchbaseLite.framework */,
+				B7E314011A3E13C70097FD2F /* libsqlite3.dylib */,
+				B7E313FF1A3E13BF0097FD2F /* libz.dylib */,
+				B7E313FD1A3E13BA0097FD2F /* OpenGLES.framework */,
+				B7E313FB1A3E13B10097FD2F /* CFNetwork.framework */,
+				B7E313F91A3E13AB0097FD2F /* SystemConfiguration.framework */,
+				B7E313F71A3E13990097FD2F /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7E314031A3E13D40097FD2F /* service */ = {
+			isa = PBXGroup;
+			children = (
+				B7E314061A3E13FC0097FD2F /* CouchbaseService.m */,
+				B7E314051A3E13F40097FD2F /* CouchbaseService.h */,
+			);
+			name = service;
+			sourceTree = "<group>";
+		};
+		B7E314041A3E13DA0097FD2F /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +286,7 @@
 			files = (
 				B7E313D71A3E130C0097FD2F /* SecondViewController.m in Sources */,
 				B7E313D11A3E130C0097FD2F /* AppDelegate.m in Sources */,
+				B7E314071A3E13FC0097FD2F /* CouchbaseService.m in Sources */,
 				B7E313D41A3E130C0097FD2F /* FirstViewController.m in Sources */,
 				B7E313CE1A3E130C0097FD2F /* main.m in Sources */,
 			);
@@ -236,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7E313EB1A3E130D0097FD2F /* TravelJournalIOSTests.m in Sources */,
+				B7E314081A3E13FC0097FD2F /* CouchbaseService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +413,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TravelJournalIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -361,6 +427,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TravelJournalIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -374,6 +444,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -393,6 +464,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = TravelJournalIOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
