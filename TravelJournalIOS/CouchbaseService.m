@@ -42,6 +42,31 @@
          stringByAppendingString: @"/Library/Application Support/CouchbaseLite"];
         NSLog(@"Database %@ created at %@", dbname,
               [NSString stringWithFormat:@"%@/%@%@", databaseLocation, dbname, @".cblite"]);
+        
+        NSURL* serverDbURL = [NSURL URLWithString: SYNC_DB_URL];
+        _journalDBPush = [_database createPushReplication: serverDbURL];
+        _journalDBPull = [_database createPullReplication: serverDbURL];
+        
+        _journalDBPull.continuous = _journalDBPush.continuous = YES;
+        
+        id<CBLAuthenticator> auth;
+        auth = [CBLAuthenticator basicAuthenticatorWithName: @"test001"
+                                                   password: @"111111"];
+        _journalDBPush.authenticator = _journalDBPull.authenticator = auth;
+        
+        
+        [[NSNotificationCenter defaultCenter] addObserver: self
+                                                 selector: @selector(replicationChanged:)
+                                                     name: kCBLReplicationChangeNotification
+                                                   object: _journalDBPush];
+        [[NSNotificationCenter defaultCenter] addObserver: self
+                                                 selector: @selector(replicationChanged:)
+                                                     name: kCBLReplicationChangeNotification
+                                                   object: _journalDBPull];
+        
+        [_journalDBPush start];
+        [_journalDBPull start];
+        
     }
     return self;
 }

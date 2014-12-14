@@ -25,6 +25,14 @@
 		B7E314081A3E13FC0097FD2F /* CouchbaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E314061A3E13FC0097FD2F /* CouchbaseService.m */; };
 		B7E3140A1A3E149F0097FD2F /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E314091A3E149F0097FD2F /* CouchbaseLite.framework */; };
 		B7E3140B1A3E149F0097FD2F /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E314091A3E149F0097FD2F /* CouchbaseLite.framework */; };
+		B7E3140E1A3E24750097FD2F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E314011A3E13C70097FD2F /* libsqlite3.dylib */; };
+		B7E3140F1A3E24780097FD2F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E313FF1A3E13BF0097FD2F /* libz.dylib */; };
+		B7E314101A3E247C0097FD2F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E313FD1A3E13BA0097FD2F /* OpenGLES.framework */; };
+		B7E314111A3E247E0097FD2F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E313FB1A3E13B10097FD2F /* CFNetwork.framework */; };
+		B7E314121A3E24810097FD2F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E313F91A3E13AB0097FD2F /* SystemConfiguration.framework */; };
+		B7E314131A3E24840097FD2F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E313F71A3E13990097FD2F /* Security.framework */; };
+		B7E314181A3E26A40097FD2F /* CouchbaseLiteListener.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E314171A3E26A40097FD2F /* CouchbaseLiteListener.framework */; };
+		B7E314191A3E26A40097FD2F /* CouchbaseLiteListener.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E314171A3E26A40097FD2F /* CouchbaseLiteListener.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +70,7 @@
 		B7E314051A3E13F40097FD2F /* CouchbaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouchbaseService.h; sourceTree = "<group>"; };
 		B7E314061A3E13FC0097FD2F /* CouchbaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouchbaseService.m; sourceTree = "<group>"; };
 		B7E314091A3E149F0097FD2F /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLite.framework; sourceTree = "<group>"; };
+		B7E314171A3E26A40097FD2F /* CouchbaseLiteListener.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLiteListener.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +82,7 @@
 				B7E314001A3E13BF0097FD2F /* libz.dylib in Frameworks */,
 				B7E313FE1A3E13BA0097FD2F /* OpenGLES.framework in Frameworks */,
 				B7E313FC1A3E13B10097FD2F /* CFNetwork.framework in Frameworks */,
+				B7E314181A3E26A40097FD2F /* CouchbaseLiteListener.framework in Frameworks */,
 				B7E313FA1A3E13AB0097FD2F /* SystemConfiguration.framework in Frameworks */,
 				B7E313F81A3E13990097FD2F /* Security.framework in Frameworks */,
 				B7E3140A1A3E149F0097FD2F /* CouchbaseLite.framework in Frameworks */,
@@ -83,7 +93,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7E3140E1A3E24750097FD2F /* libsqlite3.dylib in Frameworks */,
 				B7E3140B1A3E149F0097FD2F /* CouchbaseLite.framework in Frameworks */,
+				B7E3140F1A3E24780097FD2F /* libz.dylib in Frameworks */,
+				B7E314101A3E247C0097FD2F /* OpenGLES.framework in Frameworks */,
+				B7E314191A3E26A40097FD2F /* CouchbaseLiteListener.framework in Frameworks */,
+				B7E314131A3E24840097FD2F /* Security.framework in Frameworks */,
+				B7E314121A3E24810097FD2F /* SystemConfiguration.framework in Frameworks */,
+				B7E314111A3E247E0097FD2F /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +169,7 @@
 		B7E313F41A3E13520097FD2F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B7E314171A3E26A40097FD2F /* CouchbaseLiteListener.framework */,
 				B7E314091A3E149F0097FD2F /* CouchbaseLite.framework */,
 				B7E314011A3E13C70097FD2F /* libsqlite3.dylib */,
 				B7E313FF1A3E13BF0097FD2F /* libz.dylib */,
@@ -384,6 +402,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -419,6 +438,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
