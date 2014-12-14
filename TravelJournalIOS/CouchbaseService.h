@@ -15,10 +15,8 @@
 @property (strong, nonatomic) CBLManager *manager;
 // the database
 @property (strong, nonatomic) CBLDatabase *database;
-// document identifier
-@property (strong, nonatomic) NSString *docID;
+
 
 @property CBLReplication *journalDBPush;
 
--(void) initDB;
 @end

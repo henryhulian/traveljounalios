@@ -114,15 +114,10 @@
 			children = (
 				B7E314041A3E13DA0097FD2F /* model */,
 				B7E314031A3E13D40097FD2F /* service */,
+				B7E3140C1A3E1CAD0097FD2F /* control */,
+				B7E3140D1A3E1D370097FD2F /* view */,
 				B7E313CF1A3E130C0097FD2F /* AppDelegate.h */,
 				B7E313D01A3E130C0097FD2F /* AppDelegate.m */,
-				B7E313D21A3E130C0097FD2F /* FirstViewController.h */,
-				B7E313D31A3E130C0097FD2F /* FirstViewController.m */,
-				B7E313D51A3E130C0097FD2F /* SecondViewController.h */,
-				B7E313D61A3E130C0097FD2F /* SecondViewController.m */,
-				B7E313D81A3E130C0097FD2F /* Main.storyboard */,
-				B7E313DB1A3E130C0097FD2F /* Images.xcassets */,
-				B7E313DD1A3E130C0097FD2F /* LaunchScreen.xib */,
 				B7E313CB1A3E130C0097FD2F /* Supporting Files */,
 			);
 			path = TravelJournalIOS;
@@ -182,6 +177,27 @@
 			children = (
 			);
 			name = model;
+			sourceTree = "<group>";
+		};
+		B7E3140C1A3E1CAD0097FD2F /* control */ = {
+			isa = PBXGroup;
+			children = (
+				B7E313D21A3E130C0097FD2F /* FirstViewController.h */,
+				B7E313D31A3E130C0097FD2F /* FirstViewController.m */,
+				B7E313D51A3E130C0097FD2F /* SecondViewController.h */,
+				B7E313D61A3E130C0097FD2F /* SecondViewController.m */,
+			);
+			name = control;
+			sourceTree = "<group>";
+		};
+		B7E3140D1A3E1D370097FD2F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B7E313DB1A3E130C0097FD2F /* Images.xcassets */,
+				B7E313DD1A3E130C0097FD2F /* LaunchScreen.xib */,
+				B7E313D81A3E130C0097FD2F /* Main.storyboard */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
