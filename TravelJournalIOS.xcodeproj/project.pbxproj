@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7E313CE1A3E130C0097FD2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E313CD1A3E130C0097FD2F /* main.m */; };
+		B7E313D11A3E130C0097FD2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E313D01A3E130C0097FD2F /* AppDelegate.m */; };
+		B7E313D41A3E130C0097FD2F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E313D31A3E130C0097FD2F /* FirstViewController.m */; };
+		B7E313D71A3E130C0097FD2F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E313D61A3E130C0097FD2F /* SecondViewController.m */; };
+		B7E313DA1A3E130C0097FD2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E313D81A3E130C0097FD2F /* Main.storyboard */; };
+		B7E313DC1A3E130C0097FD2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7E313DB1A3E130C0097FD2F /* Images.xcassets */; };
+		B7E313DF1A3E130D0097FD2F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7E313DD1A3E130C0097FD2F /* LaunchScreen.xib */; };
+		B7E313EB1A3E130D0097FD2F /* TravelJournalIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E313EA1A3E130D0097FD2F /* TravelJournalIOSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7E313E51A3E130D0097FD2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7E313C01A3E130C0097FD2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7E313C71A3E130C0097FD2F;
+			remoteInfo = TravelJournalIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7E313C81A3E130C0097FD2F /* TravelJournalIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelJournalIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E313CC1A3E130C0097FD2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E313CD1A3E130C0097FD2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7E313CF1A3E130C0097FD2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7E313D01A3E130C0097FD2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7E313D21A3E130C0097FD2F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		B7E313D31A3E130C0097FD2F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		B7E313D51A3E130C0097FD2F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B7E313D61A3E130C0097FD2F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B7E313D91A3E130C0097FD2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7E313DB1A3E130C0097FD2F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B7E313DE1A3E130D0097FD2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B7E313E41A3E130D0097FD2F /* TravelJournalIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelJournalIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E313E91A3E130D0097FD2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E313EA1A3E130D0097FD2F /* TravelJournalIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravelJournalIOSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7E313C51A3E130C0097FD2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E313E11A3E130D0097FD2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7E313BF1A3E130C0097FD2F = {
+			isa = PBXGroup;
+			children = (
+				B7E313CA1A3E130C0097FD2F /* TravelJournalIOS */,
+				B7E313E71A3E130D0097FD2F /* TravelJournalIOSTests */,
+				B7E313C91A3E130C0097FD2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7E313C91A3E130C0097FD2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7E313C81A3E130C0097FD2F /* TravelJournalIOS.app */,
+				B7E313E41A3E130D0097FD2F /* TravelJournalIOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7E313CA1A3E130C0097FD2F /* TravelJournalIOS */ = {
+			isa = PBXGroup;
+			children = (
+				B7E313CF1A3E130C0097FD2F /* AppDelegate.h */,
+				B7E313D01A3E130C0097FD2F /* AppDelegate.m */,
+				B7E313D21A3E130C0097FD2F /* FirstViewController.h */,
+				B7E313D31A3E130C0097FD2F /* FirstViewController.m */,
+				B7E313D51A3E130C0097FD2F /* SecondViewController.h */,
+				B7E313D61A3E130C0097FD2F /* SecondViewController.m */,
+				B7E313D81A3E130C0097FD2F /* Main.storyboard */,
+				B7E313DB1A3E130C0097FD2F /* Images.xcassets */,
+				B7E313DD1A3E130C0097FD2F /* LaunchScreen.xib */,
+				B7E313CB1A3E130C0097FD2F /* Supporting Files */,
+			);
+			path = TravelJournalIOS;
+			sourceTree = "<group>";
+		};
+		B7E313CB1A3E130C0097FD2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7E313CC1A3E130C0097FD2F /* Info.plist */,
+				B7E313CD1A3E130C0097FD2F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7E313E71A3E130D0097FD2F /* TravelJournalIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7E313EA1A3E130D0097FD2F /* TravelJournalIOSTests.m */,
+				B7E313E81A3E130D0097FD2F /* Supporting Files */,
+			);
+			path = TravelJournalIOSTests;
+			sourceTree = "<group>";
+		};
+		B7E313E81A3E130D0097FD2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7E313E91A3E130D0097FD2F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7E313C71A3E130C0097FD2F /* TravelJournalIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E313EE1A3E130D0097FD2F /* Build configuration list for PBXNativeTarget "TravelJournalIOS" */;
+			buildPhases = (
+				B7E313C41A3E130C0097FD2F /* Sources */,
+				B7E313C51A3E130C0097FD2F /* Frameworks */,
+				B7E313C61A3E130C0097FD2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravelJournalIOS;
+			productName = TravelJournalIOS;
+			productReference = B7E313C81A3E130C0097FD2F /* TravelJournalIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7E313E31A3E130D0097FD2F /* TravelJournalIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E313F11A3E130D0097FD2F /* Build configuration list for PBXNativeTarget "TravelJournalIOSTests" */;
+			buildPhases = (
+				B7E313E01A3E130D0097FD2F /* Sources */,
+				B7E313E11A3E130D0097FD2F /* Frameworks */,
+				B7E313E21A3E130D0097FD2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7E313E61A3E130D0097FD2F /* PBXTargetDependency */,
+			);
+			name = TravelJournalIOSTests;
+			productName = TravelJournalIOSTests;
+			productReference = B7E313E41A3E130D0097FD2F /* TravelJournalIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7E313C01A3E130C0097FD2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = TravelJournal;
+				TargetAttributes = {
+					B7E313C71A3E130C0097FD2F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B7E313E31A3E130D0097FD2F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B7E313C71A3E130C0097FD2F;
+					};
+				};
+			};
+			buildConfigurationList = B7E313C31A3E130C0097FD2F /* Build configuration list for PBXProject "TravelJournalIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7E313BF1A3E130C0097FD2F;
+			productRefGroup = B7E313C91A3E130C0097FD2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7E313C71A3E130C0097FD2F /* TravelJournalIOS */,
+				B7E313E31A3E130D0097FD2F /* TravelJournalIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7E313C61A3E130C0097FD2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E313DA1A3E130C0097FD2F /* Main.storyboard in Resources */,
+				B7E313DF1A3E130D0097FD2F /* LaunchScreen.xib in Resources */,
+				B7E313DC1A3E130C0097FD2F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E313E21A3E130D0097FD2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7E313C41A3E130C0097FD2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E313D71A3E130C0097FD2F /* SecondViewController.m in Sources */,
+				B7E313D11A3E130C0097FD2F /* AppDelegate.m in Sources */,
+				B7E313D41A3E130C0097FD2F /* FirstViewController.m in Sources */,
+				B7E313CE1A3E130C0097FD2F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E313E01A3E130D0097FD2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E313EB1A3E130D0097FD2F /* TravelJournalIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7E313E61A3E130D0097FD2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7E313C71A3E130C0097FD2F /* TravelJournalIOS */;
+			targetProxy = B7E313E51A3E130D0097FD2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7E313D81A3E130C0097FD2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7E313D91A3E130C0097FD2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7E313DD1A3E130C0097FD2F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7E313DE1A3E130D0097FD2F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7E313EC1A3E130D0097FD2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7E313ED1A3E130D0097FD2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7E313EF1A3E130D0097FD2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TravelJournalIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B7E313F01A3E130D0097FD2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TravelJournalIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B7E313F21A3E130D0097FD2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TravelJournalIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelJournalIOS.app/TravelJournalIOS";
+			};
+			name = Debug;
+		};
+		B7E313F31A3E130D0097FD2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TravelJournalIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelJournalIOS.app/TravelJournalIOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7E313C31A3E130C0097FD2F /* Build configuration list for PBXProject "TravelJournalIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E313EC1A3E130D0097FD2F /* Debug */,
+				B7E313ED1A3E130D0097FD2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7E313EE1A3E130D0097FD2F /* Build configuration list for PBXNativeTarget "TravelJournalIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E313EF1A3E130D0097FD2F /* Debug */,
+				B7E313F01A3E130D0097FD2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B7E313F11A3E130D0097FD2F /* Build configuration list for PBXNativeTarget "TravelJournalIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E313F21A3E130D0097FD2F /* Debug */,
+				B7E313F31A3E130D0097FD2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7E313C01A3E130C0097FD2F /* Project object */;
+}
