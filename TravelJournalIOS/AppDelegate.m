@@ -7,16 +7,23 @@
 //
 
 #import "AppDelegate.h"
+#import "CouchbaseService.h"
 
 @interface AppDelegate ()
 
 @end
+
+CouchbaseService *coubaseService;
+
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSLog(@"test!");
+    coubaseService = [[CouchbaseService alloc] init];
+    [coubaseService initDB];
     return YES;
 }
 
