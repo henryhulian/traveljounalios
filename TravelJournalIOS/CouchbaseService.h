@@ -10,7 +10,7 @@
 #import <CouchbaseLite/CouchbaseLite.h>
 
 #define JOURNAL_DB_NAME @"journals"
-#define SYNC_DB_URL @"locaohost"
+#define SYNC_DB_URL @"http://120.24.225.199:4984/journals/"
 
 @interface CouchbaseService : NSObject
 
@@ -22,5 +22,8 @@
 
 @property CBLReplication *journalDBPush;
 @property CBLReplication *journalDBPull;
+
+- (void)createJournal:(NSString*)journalName;
+- (void)recordJournalNode;
 
 @end

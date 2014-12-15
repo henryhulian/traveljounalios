@@ -56,11 +56,11 @@
         
         
         [[NSNotificationCenter defaultCenter] addObserver: self
-                                                 selector: @selector(replicationChanged:)
+                                                 selector: @selector(replicationChanged)
                                                      name: kCBLReplicationChangeNotification
                                                    object: _journalDBPush];
         [[NSNotificationCenter defaultCenter] addObserver: self
-                                                 selector: @selector(replicationChanged:)
+                                                 selector: @selector(replicationChanged)
                                                      name: kCBLReplicationChangeNotification
                                                    object: _journalDBPull];
         
@@ -71,5 +71,28 @@
     return self;
 }
 
+- (void)replicationChanged{
+    NSLog(@"replication changed!");
+}
+
+//创建旅游日志
+- (void)createJournal:(NSString *)journalName{
+    
+    NSError *__autoreleasing *error;
+    
+    CBLDocument *journal = [_database documentWithID:journalName];
+    
+    NSDictionary *updatedProperts = [[NSDictionary alloc] init];
+    [updatedProperts setValue:@"test001" forKey:@"username"];
+    //[updatedProperts setValue: forKey:<#(NSString *)#>]
+    [journal putProperties:updatedProperts error:error];
+    
+    
+}
+
+//保存旅游日志节点
+- (void)recordJournalNode{
+    
+}
 
 @end
