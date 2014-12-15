@@ -78,14 +78,31 @@
 //创建旅游日志
 - (void)createJournal:(NSString *)journalName{
     
-    NSError *__autoreleasing *error;
+    @try {
+        
+        NSError *__autoreleasing *error;
+        
+        CBLDocument *journal = [_database documentWithID:journalName];
+        
+        NSString *username = [journal propertyForKey:@"username"];
+        
+        if ( username==nil) {
+            NSMutableDictionary *updatedProperts = [[NSMutableDictionary alloc] init];
+            [updatedProperts setValue:@"test001" forKey:@"username"];
+            //[updatedProperts setValue: forKey:<#(NSString *)#>]
+            [journal putProperties:updatedProperts error:error];
+        }
+        
+        NSLog(@"create journal:%@",journalName);
+        
+    }
+    @catch (NSException *exception) {
+        NSLog(@"%@",exception);
+    }
+    @finally {
+        
+    }
     
-    CBLDocument *journal = [_database documentWithID:journalName];
-    
-    NSDictionary *updatedProperts = [[NSDictionary alloc] init];
-    [updatedProperts setValue:@"test001" forKey:@"username"];
-    //[updatedProperts setValue: forKey:<#(NSString *)#>]
-    [journal putProperties:updatedProperts error:error];
     
     
 }

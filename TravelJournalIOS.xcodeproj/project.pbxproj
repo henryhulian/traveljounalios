@@ -33,6 +33,8 @@
 		B7E314131A3E24840097FD2F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E313F71A3E13990097FD2F /* Security.framework */; };
 		B7E314181A3E26A40097FD2F /* CouchbaseLiteListener.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E314171A3E26A40097FD2F /* CouchbaseLiteListener.framework */; };
 		B7E314191A3E26A40097FD2F /* CouchbaseLiteListener.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E314171A3E26A40097FD2F /* CouchbaseLiteListener.framework */; };
+		B7E3141C1A3F73DA0097FD2F /* ServiceDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E3141B1A3F73DA0097FD2F /* ServiceDelegate.m */; };
+		B7E3141D1A3F73DA0097FD2F /* ServiceDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E3141B1A3F73DA0097FD2F /* ServiceDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		B7E314061A3E13FC0097FD2F /* CouchbaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouchbaseService.m; sourceTree = "<group>"; };
 		B7E314091A3E149F0097FD2F /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLite.framework; sourceTree = "<group>"; };
 		B7E314171A3E26A40097FD2F /* CouchbaseLiteListener.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLiteListener.framework; sourceTree = "<group>"; };
+		B7E3141A1A3F73DA0097FD2F /* ServiceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceDelegate.h; sourceTree = "<group>"; };
+		B7E3141B1A3F73DA0097FD2F /* ServiceDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +190,8 @@
 			children = (
 				B7E314061A3E13FC0097FD2F /* CouchbaseService.m */,
 				B7E314051A3E13F40097FD2F /* CouchbaseService.h */,
+				B7E3141A1A3F73DA0097FD2F /* ServiceDelegate.h */,
+				B7E3141B1A3F73DA0097FD2F /* ServiceDelegate.m */,
 			);
 			name = service;
 			sourceTree = "<group>";
@@ -322,6 +328,7 @@
 				B7E313D11A3E130C0097FD2F /* AppDelegate.m in Sources */,
 				B7E314071A3E13FC0097FD2F /* CouchbaseService.m in Sources */,
 				B7E313D41A3E130C0097FD2F /* FirstViewController.m in Sources */,
+				B7E3141C1A3F73DA0097FD2F /* ServiceDelegate.m in Sources */,
 				B7E313CE1A3E130C0097FD2F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7E313EB1A3E130D0097FD2F /* TravelJournalIOSTests.m in Sources */,
+				B7E3141D1A3F73DA0097FD2F /* ServiceDelegate.m in Sources */,
 				B7E314081A3E13FC0097FD2F /* CouchbaseService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,8 +7,10 @@
 //
 
 #import "FirstViewController.h"
+#import "ServiceDelegate.h"
 
 @interface FirstViewController ()
+- (IBAction)createJournal:(id)sender;
 
 @end
 
@@ -24,4 +26,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)createJournal:(id)sender {
+    [couchbaseService createJournal:@"journal"];
+}
 @end

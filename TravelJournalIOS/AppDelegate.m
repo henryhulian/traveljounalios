@@ -7,13 +7,11 @@
 //
 
 #import "AppDelegate.h"
-#import "CouchbaseService.h"
+#import "ServiceDelegate.h"
 
 @interface AppDelegate ()
 
 @end
-
-CouchbaseService *coubaseService;
 
 
 @implementation AppDelegate
@@ -21,8 +19,8 @@ CouchbaseService *coubaseService;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-    coubaseService = [[CouchbaseService alloc] init];
-    
+    [ServiceDelegate initServices];
+
     return YES;
 }
 
